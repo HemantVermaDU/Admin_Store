@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+#first{
+	
+background:#FAEBD7;
+ border-radius: 10px;}
+
+#first1{
+	  background:#FFC0CB;
+	 border-radius: 10px;
+}
+
+#first2{	
+    background: #AFEEEE;
+	 border-radius: 10px;
+}
+
+#first3{
+	  background:#7FFFD4;
+	  border-radius: 10px;
+}
+.card-body .card-title{
+	color: #191970;
+}

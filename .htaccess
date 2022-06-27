@@ -1,0 +1,12 @@
+#ErrorDocument 404 "Page Not Found  https://storeadmin.mindstein.co.in"
+
+ErrorDocument 404 /admin_store/404.html
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([^\.]+)$  $1.php  [NC,L]
+</IfModule>
